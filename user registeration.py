@@ -8,7 +8,6 @@ from time import sleep
 
 import time
 
-# Create a new instance of the Firefox driver
 driver = webdriver.Chrome()
 
 # Navigate to the tutorilaspoint homepage
@@ -74,9 +73,6 @@ cartpage = driver.find_element(By.XPATH, '//*[@id="navbarCollapse"]/div[2]/div[1
 cartpage.click()
 
 time.sleep(2)
-
-
-
 
 goto_home = driver.find_element(By.XPATH, '/html/body/header/nav/div/a')
 goto_home.click()
