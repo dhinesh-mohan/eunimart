@@ -16,7 +16,7 @@ driver.get("https://www.tutorialspoint.com/market/business/subscription.jsp?gcli
 driver.maximize_window()
 
 print("Title of the page: ",driver.title)
-# Find the sign-in button and click it
+
 time.sleep(2)
 
 login = driver.find_element(By.XPATH,'//*[@id="navbarCollapse"]/div[2]/div/a')
