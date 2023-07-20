@@ -11,7 +11,7 @@ import time
 # Create a new instance of the Firefox driver
 driver = webdriver.Chrome()
 
-# Navigate to the Amazon homepage
+# Navigate to the tutorilaspoint homepage
 driver.get("https://www.tutorialspoint.com/market/business/subscription.jsp?gclid=Cj0KCQiAjbagBhD3ARIsANRrqEs620kaHVg0GCAYXKhZQadzqDOWkjK4bfA0RNscPh02RMhOSnQ3Mp8aAo6sEALw_wcB")
 
 
